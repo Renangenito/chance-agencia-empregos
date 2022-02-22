@@ -1,30 +1,31 @@
 import React from 'react';
 import styles from './NavBar.module.css'
 import { Link } from 'react-router-dom';
+import {MdWork, MdHome, MdSearch, MdPerson} from 'react-icons/md'
 function NavBar(){
     return(
         <div className={styles.navBar}>
             <div className={styles.navBar_logo}>
-                chance
+                Chance
             </div>
-            <div >
+            <div className={styles.navBar_link}>
                 <Link to="/">
-                    Inicio
+                <MdWork /> Inicio
                 </Link>
             </div>
-            <div >
+            <div className={styles.navBar_link}>
                 <Link to="/candidaturas">
-                Candidaturas
+                <MdHome /> Candidaturas
                 </Link>
             </div>
-            <div >
+            <div className={styles.navBar_link}>
                 <Link to="/vagas">
-                Vagas
+                <MdSearch /> Vagas
                 </Link>
             </div>
-            <div>
+            <div className={styles.navBar_link}>
                 <Link to="/perfil">
-                    Perfil
+                <MdPerson /> Perfil
                 </Link>
             </div>
         </div>

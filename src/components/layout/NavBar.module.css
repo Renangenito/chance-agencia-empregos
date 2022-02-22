@@ -1,11 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 
 .navBar{
-    width: 12%;
+    width: 13%;
     height: 100%;
     background-color: blueviolet;
 }
 
 .navBar_logo{
+    width: 100%;
     font-family: 'Merienda One', cursive;
+    font-size: 2em;
+    text-align: center;
+    color: #FFF;
+    padding: .5em 0;
+    border-bottom: 1px solid #FFF;
 }
+
+.navBar_link {
+    width: 100%;
+    padding: .5em .8em;
+    font-size: 1em;
+    margin: 1em 0;
+    margin-left: 1em;
+}
+
+.navBar_link a{
+    text-align: start;
+    color: #FFF;
+    text-decoration: none;
+}
+
