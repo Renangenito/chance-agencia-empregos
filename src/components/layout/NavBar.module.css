@@ -1,32 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 .navBar{
     width: 13%;
     height: 100%;
-    background-color: blueviolet;
+    background-color: #a36faf;
 }
 
 .navBar_logo{
     width: 100%;
-    font-family: 'Merienda One', cursive;
-    font-size: 2em;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2.4em;
     text-align: center;
     color: #FFF;
-    padding: .5em 0;
-    border-bottom: 1px solid #FFF;
+    padding: .4em 0;
+    border-bottom: 1px solid #fff;
+    margin-bottom: .2em;
 }
 
-.navBar_link {
+.navBar_link{
+    display: flex;
+    align-items: center;
     width: 100%;
-    padding: .5em .8em;
-    font-size: 1em;
-    margin: 1em 0;
-    margin-left: 1em;
+    height: 3.1em;
 }
 
-.navBar_link a{
-    text-align: start;
+.navBar_link:hover{
+    background-color: rgba(255, 255, 255,0.2);
+    cursor: pointer;
+}
+.navBar_link:focus{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.3) , rgba(214, 214, 213,0.4));
+    overflow: hidden;
+}
+.navBar_links svg{
+    font-size: 1.6em;
+    margin-right: .5em;
+}
+
+.navBar_links a{
+    display: flex;
+    align-items: center;
     color: #FFF;
     text-decoration: none;
+    padding-left: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.navBar_links p{
+    font-size: .9em;
 }
 
