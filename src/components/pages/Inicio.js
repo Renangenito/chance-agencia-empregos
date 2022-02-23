@@ -1,10 +1,8 @@
 import React from 'react';
-
+import BarraPesquisa from '../layout/BarraPesquisa';
 function Inicio(){
     return(
-        <div>
-            <h1>Página Início</h1>
-        </div>
+        <BarraPesquisa pagina="Início"/>
     )
 }
 
