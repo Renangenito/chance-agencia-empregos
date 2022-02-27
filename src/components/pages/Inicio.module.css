@@ -1,0 +1,31 @@
+.inicio{
+    width: 100%;
+    display: block;
+    margin-left: 15%;
+}
+
+.inicio_main{
+    width: 95%;
+    border-bottom: 1px solid rgb(197, 196, 196);
+    margin: 1em;
+}
+
+.inicio_main h1{
+    color: #499987;
+    margin: .5em;
+    margin-top: 1em;
+}
+
+.inicio_main p{
+    color: #499987;
+    margin: 3em 0 .7em 2em;
+    font-weight: bold;
+}
+
+.vagas_main_cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em;
+}

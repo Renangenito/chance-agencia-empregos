@@ -1,0 +1,110 @@
+
+.barraPesquisa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    background-color: #FFF;
+    box-shadow: 0 1px 4px;
+}
+.barraPesquisa h1{
+    width: 10%;
+    color: rgb(87, 86, 86);
+    font-size: 1.5em;
+}
+.barraPesquisa h1:hover{
+    color: #499987;
+    cursor: pointer;
+}
+.barraPesquisa svg{
+    font-size: 1.4em;
+    color: rgb(87, 86, 86);
+}
+.barraPesquisa svg:hover{
+    font-size: 1.4em;
+    color: rgb(119, 118, 118);
+    cursor: pointer;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 2.3em;
+    border: 1px solid rgb(104, 103, 103);
+    border-radius: .4em;
+}
+.search svg{
+    font-size: 1.8em;
+    color: rgb(87, 86, 86);
+}
+.search input{
+    width: 90%;
+    height: 2em;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.barraPesquisa_botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4em;
+    height: 4em;
+    background-color: #2f6d5f;
+    color: #FFF;
+    border: none;
+    border-radius: 50%;
+    margin-left: 1.5em;
+}
+.barraPesquisa_botao:hover{
+    cursor: pointer;
+    background-color: #499987;
+}
+.usuario{
+    display: flex;
+    align-items: center;
+}
+
+.usuario_modal{
+    position: absolute;
+    right: 0;
+    margin-right: 5em;
+    background-color: #FFF;
+    box-shadow: 0 0 8px;
+}
+
+.usuario_modal h5{
+    width: 90%;
+    margin: auto;
+    padding: 1em;
+    color: dimgray;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.usuario_modal ul{
+    list-style-type: none;
+}
+
+.usuario_modal ul li{
+    padding: 1em;
+    font-size: .9em;
+}
+.usuario_modal ul li:hover{
+    background-color: rgba(189, 188, 188, 0.1);
+    cursor: pointer;
+}
+
+.usuario_modal ul svg{
+    font-size: 1em;
+}
+.usuario_modal ul li span{
+    color: rgb(212, 32, 32);
+}
+.usuario_modal ul li span svg{
+    font-size: 1.3em;
+    margin-right: .2em;
+}
