@@ -1,5 +1,5 @@
 # Chance
-## Chance é um site de agência de empregos onde as páginas podem ser acessadas através do menu.
+## Chance é um site de agência de empregos onde cada página pode ser acessada através do menu lateral.
 ## O projeto foi implementado com React Components e Styled Components.
 <br></br>
 # Página de Início
