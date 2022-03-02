@@ -11,10 +11,10 @@ function Candidaturas(){
         <BarraPesquisaa pagina='Candidaturas'/>
         <div className={styles.vagas_main}>
                 <CardVaga vaga='Desenvolvedor Front-end' alt='react' logo={logoReact}
-                    cidade='Suzano' estado='São Paulo' tipo='Remoto' contrato='CLT'  candidatura='Candidatura Confirmada'/>
+                    cidade='Suzano' estado='São Paulo' tipo='Remoto' contrato='CLT'  candidatura='Candidatura Confirmada' quando='há 3 dias' />
 
                 <CardVaga vaga='Desenvolvedor Angular' alt='angular' logo={logoAngular}
-                    cidade='Mogi das Cruzes' estado='São Paulo' tipo='Presencial' contrato='CLT' candidatura='Candidatura Confirmada' />
+                    cidade='Mogi das Cruzes' estado='São Paulo' tipo='Presencial' contrato='CLT' candidatura='Candidatura Confirmada' quando='há 3 dias' />
        </div>
        </div>
     )

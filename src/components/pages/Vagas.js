@@ -13,30 +13,30 @@ function Vagas() {
             <BarraPesquisa pagina='Vagas' />
             <div className={styles.vagas_main}>
                 <CardVaga vaga='Desenvolvedor Front-end' alt='react' logo={logoReact}
-                    cidade='Suzano' estado='São Paulo' tipo='Remoto' contrato='CLT'  />
+                    cidade='Suzano' estado='São Paulo' tipo='Remoto' contrato='CLT' quando='há 3 dias' />
 
                 <CardVaga vaga='Desenvolvedor Angular' alt='angular' logo={logoAngular}
-                    cidade='Mogi das Cruzes' estado='São Paulo' tipo='Presencial' contrato='CLT' />
+                    cidade='Mogi das Cruzes' estado='São Paulo' tipo='Presencial' contrato='CLT' quando='há 3 dias' />
 
                 <CardVaga vaga='Desenvolvedor Back-end' alt='node' logo={logoNode}
-                    cidade='Salvador' estado='Bahia' tipo='Remoto' contrato='PJ' />
+                    cidade='Salvador' estado='Bahia' tipo='Remoto' contrato='PJ' quando='há 2 dias' />
 
                 <CardVaga vaga='Desenvolvedor Front-end' alt='vue' logo={logoVue}
-                    cidade='São Paulo' estado='São Paulo' tipo='Híbrido' contrato='CLT/PJ' />
+                    cidade='São Paulo' estado='São Paulo' tipo='Híbrido' contrato='CLT/PJ' quando='há 5 dias' />
                 <CardVaga vaga='Desenvolvedor Angular' alt='angular' logo={logoAngular}
-                    cidade='Mogi das Cruzes' estado='São Paulo' tipo='Presencial' contrato='CLT' />
+                    cidade='Mogi das Cruzes' estado='São Paulo' tipo='Presencial' contrato='CLT' quando='há 1 semana' />
 
                 <CardVaga vaga='Desenvolvedor Back-end' alt='node' logo={logoNode}
-                    cidade='Salvador' estado='Bahia' tipo='Remoto' contrato='PJ' />
+                    cidade='Salvador' estado='Bahia' tipo='Remoto' contrato='PJ' quando='há 10h' />
 
                 <CardVaga vaga='Desenvolvedor Front-end' alt='vue' logo={logoVue}
-                    cidade='São Paulo' estado='São Paulo' tipo='Híbrido' contrato='CLT/PJ' />
+                    cidade='São Paulo' estado='São Paulo' tipo='Híbrido' contrato='CLT/PJ' quando='há 8 dias' />
 
                 <CardVaga vaga='Desenvolvedor Front-end' alt='react' logo={logoReact}
-                    cidade='Suzano' estado='São Paulo' tipo='Remoto' contrato='CLT' />
+                    cidade='Suzano' estado='São Paulo' tipo='Remoto' contrato='CLT' quando='há 1 dia' />
 
                 <CardVaga vaga='Desenvolvedor Back-end' alt='node' logo={logoNode}
-                    cidade='Salvador' estado='Bahia' tipo='Remoto' contrato='PJ' />
+                    cidade='Salvador' estado='Bahia' tipo='Remoto' contrato='PJ' quando='há 2 dias' />
 
 
 

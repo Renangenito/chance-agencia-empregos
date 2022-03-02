@@ -14,7 +14,7 @@ function Inicio() {
             </div>
             <div className={styles.vagas_main_cards}>
             <CardVaga vaga='Desenvolvedor Front-end' alt='react' logo={logoReact}
-                    cidade='Suzano' estado='São Paulo' tipo='Remoto' contrato='CLT'  candidatura='Candidatura Confirmada'/>
+                    cidade='Suzano' estado='São Paulo' tipo='Remoto' contrato='CLT'  candidatura='Candidatura Confirmada' quando='há 3 dias'/>
         </div>
         </div>
     )
