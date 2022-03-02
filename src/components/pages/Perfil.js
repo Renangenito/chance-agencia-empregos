@@ -10,9 +10,9 @@ function Perfil() {
                 <div className={styles.perfil_usuario}>
                     <ul>
                         <li><h3>Renan Lima - 27 anos</h3></li>
-                        <li><p>renangenito@hotmail.com</p></li>
+                        <li><p>renan@email.com</p></li>
                         <li><p>26/05/1994 | Masculino | Casado (a)</p></li>
-                        <li><p>446.846.688-00</p></li>
+                        <li><p>444.888.777-00</p></li>
                     </ul>
                     <button>Editar</button>
                 </div>
@@ -45,9 +45,9 @@ function Perfil() {
                         <button>Editar</button>
                     </div>
                     <h4>Celular</h4>
-                    <p>(11) 94939-1753</p>
+                    <p>(11) 99999-3333</p>
                     <h4>Telefone</h4>
-                    <p>(11) 4638-8173</p>
+                    <p>(11) 4444-8888</p>
                 </div> <div className={styles.perfil_usuario_sobre}>
                     <div>
                         <h4>Redes sociais</h4>
