@@ -18,5 +18,4 @@ function CardVaga({ vaga, logo, alt, cidade, estado, tipo, contrato, candidatura
         </div>
     )
 }
-
 export default CardVaga;

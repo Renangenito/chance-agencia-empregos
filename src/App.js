@@ -18,7 +18,6 @@ function App() {
               <Route path='/vagas' element={<Vagas />} />
               <Route path='/perfil' element={<Perfil />} />
           </Routes>
-          {/* < Footer /> */}
         </Router>
     </div>
   );

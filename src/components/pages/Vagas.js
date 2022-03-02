@@ -1,3 +1,4 @@
+
 import React from 'react';
 import BarraPesquisa from '../layout/BarraPesquisa';
 import styles from './Vagas.module.css';

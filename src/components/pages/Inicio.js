@@ -16,8 +16,8 @@ function Inicio() {
             <CardVaga vaga='Desenvolvedor Front-end' alt='react' logo={logoReact}
                     cidade='Suzano' estado='São Paulo' tipo='Remoto' contrato='CLT'  candidatura='Candidatura Confirmada' quando='há 3 dias'/>
         </div>
+        
         </div>
     )
 }
-
 export default Inicio;

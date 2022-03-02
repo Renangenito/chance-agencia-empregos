@@ -3,6 +3,9 @@
     display: block;
     margin-left: 15%;
 }
+.perfil_main{
+    padding-bottom: 2em;
+}
 
 .perfil_usuario{
     display: flex;
